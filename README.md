@@ -40,6 +40,17 @@ The `sr_finder.php` script will then show you a list of any DICOM SRs that Syngo
 
 If the SR is not a Syngo.via quantitative-data SR, or a DICOM RDSR (radiation dose SR), then the `sr_finder.php` page gives you the option to just view the SR as a nicely-formatted html page using the `sr_convert.php` script which uses the dcmtk `dsr2html` utility. 
 
+## Supported Syngo.via applications
+The scripts will extract data from the following applications / analysis pathways:
+* Siemens RDSRs (maybe other vendor RDSRs)
+* Dual-energy Renal Stone Analysis
+* Coronary Artery Calcium Scoring
+* Coronary Artery CT Functional Analysis
+* CT Colonography Analysis
+* MM Oncology Analysis
+
+Please note that many of these scripts were still in development when development on this project stopped, and as such they are buggy and/or incomplete.  The most fully developed scripts were the `dose_analysis.php` and the `renal_analysis.php` scripts. 
+
 ## Using these scripts without Syngo.via
 Yes! You can use this software even if you don't have syngo.via.  The scripts *should* find any SR files related to the accession you pass them, and at least give you the option to extract data from RDSR files, or at least view the SR in a pretty-formatted html page.
 
