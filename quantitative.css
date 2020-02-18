@@ -1,0 +1,61 @@
+/*
+
+    quantitative.css - cascading stylesheet code for the quantitative_sr 
+      scripts used to extract quantitative information from Siemens Syngo.via
+      DICOM SR files
+    Copyright (C) 2016 Tim O'Connell (tim.oconnell at ubc dot ca)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+*/
+
+body { 
+    font-family:arial;
+    /*font-size:10pt;  */
+    color:grey; 
+    background-color: #000000;
+}
+
+table {
+    background-color: black;
+    border: DimGrey 1px solid;
+    border-collapse: collapse;
+    font-family:arial;
+    font-size: 11pt;
+    /* font-weight: bold; */
+    color: DimGrey;
+}
+
+table tr {
+    background-color: black;
+    border: DimGrey 1px solid;
+    font-family:arial;
+    font-size: 11pt;
+    /* font-weight: bold; */
+    color: DimGrey;
+}
+
+table th {
+    border: DimGrey 1px solid;
+    padding: 10px;
+}
+
+table td {
+    border: DimGrey 1px solid;
+    padding: 10px;
+}
+
+a:link {
+    color: #0099ff;
+}
