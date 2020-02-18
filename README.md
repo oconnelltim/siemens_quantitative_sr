@@ -56,3 +56,6 @@ Yes! You can use this software even if you don't have syngo.via.  The scripts *s
 
 ## Acknowledgement
 A big thanks goes out to Dr. Mohammed Mohammed, whose enthusiasm and help was greatly appreciated in making these scripts.  
+
+## License and Warranty
+The scripts are all licensed under the GPL v3, which is included in this repo as `LICENSE.md`.  These programs are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
